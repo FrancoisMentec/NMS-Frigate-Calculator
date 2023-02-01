@@ -1,0 +1,66 @@
+#example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+#example.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#example > img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#example > div {
+    display: none;
+    position: absolute;
+    border: 4px solid var(--accent_color);
+    border-radius: 12px;
+}
+
+#example > div.visible {
+    display: block;
+}
+
+#example > div > label {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 8px;
+    background-color: var(--accent_color);
+    color: var(--background_color);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#stats_highlight {
+    top: 28%;
+    left: 69%;
+    width: 20%;
+    height: 19%;
+}
+
+#bonuses_highlight {
+    top: 24%;
+    left: 9%;
+    width: 50%;
+    height: 55%;
+}
+
+#expeditions_highlight {
+    top: 47%;
+    left: 69%;
+    width: 12%;
+    height: 4%;
+}

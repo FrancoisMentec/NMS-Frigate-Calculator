@@ -1,0 +1,21 @@
+button {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--primary_color);
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--background_color);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: var(--shadow_4dp);
+}
+
+button:active {
+    box-shadow: none;
+}

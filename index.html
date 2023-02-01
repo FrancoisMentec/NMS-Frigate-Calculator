@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Frigate Calculator</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/input.css">
+        <link rel="stylesheet" href="css/example.css">
+    </head>
+    <body>
+        <h1>No Man's Sky Frigate Calculator</h1>
+        <div>
+            This tool is here to help calculate a frigate base stats and avoid recruiting a bad one.<br>
+            Frigate Wiki: <a href="https://nomanssky.fandom.com/wiki/Frigate">https://nomanssky.fandom.com/wiki/Frigate</a>
+        </div>
+        <div id="example">
+            <img src="img/Frigate_Anomaly_001.webp">
+            <div id="stats_highlight"><label>29</label></div>
+            <div id="bonuses_highlight"><label>-9</label></div>
+            <div id="expeditions_highlight"><label>28</label></div>
+        </div>
+        <div id="parameters">
+            <label>Stats</label>
+            <input id="stats" type="number">
+            <label>Bonuses</label>
+            <input id="bonuses" type="number">
+            <label>Expeditions</label>
+            <input id="expeditions" type="number">
+            <button onclick="calculate()">Calculate</button>
+            <div id="result"></div>
+        </div>
+        
+        <div id="error"></div>
+
+        <div id="footer">Made by <a href="https://github.com/FrancoisMentec">François Mentec</a></div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
