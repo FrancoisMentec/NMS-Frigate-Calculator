@@ -26,7 +26,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
     max-width: 840px;
     margin: 0 auto;
 }

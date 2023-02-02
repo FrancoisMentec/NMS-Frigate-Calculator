@@ -1,6 +1,6 @@
 # No Man's Sky Frigate Calculator
 
-This tool is here to help calculate a frigate base stats and avoid recruiting a bad one.
+This tool is here to help calculate a frigate base stats.
 
 You can access the tool [here](https://francoismentec.github.io/NMS-Frigate-Calculator/).
 
