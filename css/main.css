@@ -65,6 +65,10 @@ h1 {
     color: var(--background_color);
 }
 
+#warning {
+    color: var(--warning_color);
+}
+
 #error {
     color: var(--danger_color);
 }

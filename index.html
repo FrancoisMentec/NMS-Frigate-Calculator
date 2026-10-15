@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Frigate Calculator</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,7 @@
             Bad traits will be removed and replaced by beneficial traits while leveling.
             However the main difference between 2 fully leveled frigates are their traits.
             Min-maxing frigates is not required to successfully complete expeditions, do it only if you want to.<br>
+            Bonuses only include traits that change Combat, Exploration, Industrial or Trade (not fuel cost or expedition duration).<br>
             Frigate Wiki: <a href="https://nomanssky.fandom.com/wiki/Frigate">https://nomanssky.fandom.com/wiki/Frigate</a>
         </div>
         <div id="example">
@@ -34,10 +36,12 @@
             <input id="bonuses" type="number">
             <label>Expeditions</label>
             <input id="expeditions" type="number">
+            <label class="checkbox"><input id="organic" type="checkbox">Organic</label>
             <button onclick="calculate()">Calculate</button>
             <div id="result"></div>
         </div>
         
+        <div id="warning"></div>
         <div id="error"></div>
 
         <div id="footer">
